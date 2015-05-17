@@ -249,15 +249,17 @@
 	\setbeamercovered{transparent} 
 	\begin{block}{Kalman Filtering}
 		\begin{itemize}
-			\item To threshold-based decision making, we have filtered the roll, pitch, and
+			\item For a threshold-based decision making, we have filtered the roll, pitch, and
 			yaw values using a Kalman filter.
-			
-			\item The thresholding method suggests that, if the filtered roll values are within $[90\pm15^{\circ}]$ and the filtered pitch values are within  $[0\pm15]^{\circ}$, then with 100\% 
+			\item If filtered roll values are within $[90\pm15^{\circ}]$ and the filtered pitch values are within  $[0\pm15]^{\circ}$, then with 100\% 
 			accuracy, the NAO  robot will be in a normal state. Otherwise the robot 
 			is in a fallen state.
 			\item If the filtered roll value is less that $60^{\circ}$ 
-			, we can safely assume that the robot is falling forward. If the filtered roll values is 
-			more than 100$^{\circ}$ we can assume that the robot is falling backward.
+			, the robot is falling forward. If the filtered roll values is 
+			more than 100$^{\circ}$, then it is falling backward.
+			\item If the filtered pitch value is less than -50$^{\circ}$, the robot is falling to the left side, while if the 
+			filtered pitch values is more than 50$^{\circ}$,then it is falling to the right 
+			side.
 			\item  With these thresholds for a separate test cases, the thresholding method has detected fallen 
 			state with 100\% accuracy. 
 		\end{itemize}

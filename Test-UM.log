@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.16)  17 MAY 2015 14:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.16)  17 MAY 2015 16:40
 entering extended mode
 **Test-UM.tex
 (F:\DropBox\Papers\motion\flair-28-presentation\Test-UM.tex
@@ -1047,11 +1047,11 @@ See the caption package documentation for explanation.
 
 Package caption Info: End \AtBeginDocument code.
 (F:\DropBox\Papers\motion\flair-28-presentation\Test-UM.nav)
-Overfull \hbox (10.83195pt too wide) detected at line 20
-  [] [] [][][] [][][][] [][] [][][][][][] [] []  
+Overfull \hbox (79.17482pt too wide) detected at line 20
+  [] [] [][][] [][][][] [][] [][][][][][] [] [] []  
  []
 
-<logos/theUlogo.jpg, id=100, 289.08pt x 151.767pt>
+<logos/theUlogo.jpg, id=105, 289.08pt x 151.767pt>
 File: logos/theUlogo.jpg Graphic file (type jpg)
  <use logos/theUlogo.jpg>
 Package pdftex.def Info: logos/theUlogo.jpg used on input line 25.
@@ -1066,37 +1066,37 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 25.
 
 
-Overfull \hbox (10.83195pt too wide) has occurred while \output is active
-  [] [] [][][] [][][][] [][] [][][][][][] [] []  
+Overfull \hbox (79.17482pt too wide) has occurred while \output is active
+  [] [] [][][] [][][][] [][] [][][][][][] [] [] []  
  []
 
 [1{C:/Users/faisal/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
  <F:/DropBox/Papers/motion/flair-28-presentation/logos/theUlogo.jpg>]
 (F:\DropBox\Papers\motion\flair-28-presentation\Test-UM.toc)
-Overfull \hbox (10.83195pt too wide) has occurred while \output is active
-  [] [] [][][] [][][][] [][] [][][][][][] [] []  
+Overfull \hbox (79.17482pt too wide) has occurred while \output is active
+  [] [] [][][] [][][][] [][] [][][][][][] [] [] []  
  []
 
 [2
 
 ]
-Overfull \hbox (10.83195pt too wide) has occurred while \output is active
-  [] [] [][][] [][][][] [][] [][][][][][] [] []  
+Overfull \hbox (79.17482pt too wide) has occurred while \output is active
+  [] [] [][][] [][][][] [][] [][][][][][] [] [] []  
  []
 
 [3
 
 ]
-Overfull \hbox (10.83195pt too wide) has occurred while \output is active
-  [] [] [][][] [][][][] [][] [][][][][][] [] []  
+Overfull \hbox (79.17482pt too wide) has occurred while \output is active
+  [] [] [][][] [][][][] [][] [][][][][][] [] [] []  
  []
 
 [4
 
 ]
-Overfull \hbox (10.83195pt too wide) has occurred while \output is active
-  [] [] [][][] [][][][] [][] [][][][][][] [] []  
+Overfull \hbox (79.17482pt too wide) has occurred while \output is active
+  [] [] [][][] [][][][] [][] [][][][][][] [] [] []  
  []
 
 [5
@@ -1119,8 +1119,8 @@ ncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-Overfull \hbox (10.83195pt too wide) has occurred while \output is active
-  [] [] [][][] [][][][] [][] [][][][][][] [] []  
+Overfull \hbox (79.17482pt too wide) has occurred while \output is active
+  [] [] [][][] [][][][] [][] [][][][][][] [] [] []  
  []
 
 [6
@@ -1139,7 +1139,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<figures/graph_structure_def-crop3.pdf, id=405, 1089.06876pt x 553.06625pt>
+<figures/graph_structure_def-crop3.pdf, id=418, 1089.06876pt x 553.06625pt>
 File: figures/graph_structure_def-crop3.pdf Graphic file (type pdf)
 
 <use figures/graph_structure_def-crop3.pdf>
@@ -1147,14 +1147,14 @@ Package pdftex.def Info: figures/graph_structure_def-crop3.pdf used on input li
 ne 153.
 (pdftex.def)             Requested size: 184.3758pt x 93.63182pt.
 
-<figures/human_figure.pdf, id=406, 1645.14626pt x 2563.5775pt>
+<figures/human_figure.pdf, id=419, 1645.14626pt x 2563.5775pt>
 File: figures/human_figure.pdf Graphic file (type pdf)
 
 <use figures/human_figure.pdf>
 Package pdftex.def Info: figures/human_figure.pdf used on input line 153.
 (pdftex.def)             Requested size: 64.53293pt x 100.53067pt.
 
-<figures/robot_figure.pdf, id=407, 1385.175pt x 2445.135pt>
+<figures/robot_figure.pdf, id=420, 1385.175pt x 2445.135pt>
 File: figures/robot_figure.pdf Graphic file (type pdf)
 
 <use figures/robot_figure.pdf>
@@ -1187,8 +1187,8 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (10.83195pt too wide) has occurred while \output is active
-  [] [] [][][] [][][][] [][] [][][][][][] [] []  
+Overfull \hbox (79.17482pt too wide) has occurred while \output is active
+  [] [] [][][] [][][][] [][] [][][][][][] [] [] []  
  []
 
 [7
@@ -1214,14 +1214,14 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<plots/human_walk2-crop.pdf, id=701, 344.28625pt x 272.01625pt>
+<plots/human_walk2-crop.pdf, id=715, 344.28625pt x 272.01625pt>
 File: plots/human_walk2-crop.pdf Graphic file (type pdf)
 
 <use plots/human_walk2-crop.pdf>
 Package pdftex.def Info: plots/human_walk2-crop.pdf used on input line 174.
 (pdftex.def)             Requested size: 76.82246pt x 60.69463pt.
 
-<plots/robot_fallen_forward2-crop.pdf, id=702, 344.28625pt x 272.01625pt>
+<plots/robot_fallen_forward2-crop.pdf, id=716, 344.28625pt x 272.01625pt>
 File: plots/robot_fallen_forward2-crop.pdf Graphic file (type pdf)
 
 <use plots/robot_fallen_forward2-crop.pdf>
@@ -1255,8 +1255,8 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (10.83195pt too wide) has occurred while \output is active
-  [] [] [][][] [][][][] [][] [][][][][][] [] []  
+Overfull \hbox (79.17482pt too wide) has occurred while \output is active
+  [] [] [][][] [][][][] [][] [][][][][][] [] [] []  
  []
 
 [8
@@ -1264,22 +1264,22 @@ Overfull \hbox (10.83195pt too wide) has occurred while \output is active
  <F:/DropBox/Papers/motion/flair-28-presentation/plots/human_walk2-crop.pdf> <F
 :/DropBox/Papers/motion/flair-28-presentation/plots/robot_fallen_forward2-crop.
 pdf>]
-Overfull \hbox (10.83195pt too wide) has occurred while \output is active
-  [] [] [][][] [][][][] [][] [][][][][][] [] []  
+Overfull \hbox (79.17482pt too wide) has occurred while \output is active
+  [] [] [][][] [][][][] [][] [][][][][][] [] [] []  
  []
 
 [9
 
 ]
-Overfull \hbox (10.83195pt too wide) has occurred while \output is active
-  [] [] [][][] [][][][] [][] [][][][][][] [] []  
+Overfull \hbox (79.17482pt too wide) has occurred while \output is active
+  [] [] [][][] [][][][] [][] [][][][][][] [] [] []  
  []
 
 [10
 
 ]
-Overfull \hbox (10.83195pt too wide) has occurred while \output is active
-  [] [] [][][] [][][][] [][] [][][][][][] [] []  
+Overfull \hbox (79.17482pt too wide) has occurred while \output is active
+  [] [] [][][] [][][][] [][] [][][][][][] [] [] []  
  []
 
 [11
@@ -1292,38 +1292,38 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.288 }
+l.290 }
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<figures/plot1-crop.pdf, id=943, 361.35pt x 283.0575pt>
+<figures/plot1-crop.pdf, id=961, 361.35pt x 283.0575pt>
 File: figures/plot1-crop.pdf Graphic file (type pdf)
 
 <use figures/plot1-crop.pdf>
-Package pdftex.def Info: figures/plot1-crop.pdf used on input line 288.
+Package pdftex.def Info: figures/plot1-crop.pdf used on input line 290.
 (pdftex.def)             Requested size: 76.82246pt x 60.17807pt.
 
-<figures/plot5-crop.pdf, id=944, 361.35pt x 283.0575pt>
+<figures/plot5-crop.pdf, id=962, 361.35pt x 283.0575pt>
 File: figures/plot5-crop.pdf Graphic file (type pdf)
 
 <use figures/plot5-crop.pdf>
-Package pdftex.def Info: figures/plot5-crop.pdf used on input line 288.
+Package pdftex.def Info: figures/plot5-crop.pdf used on input line 290.
 (pdftex.def)             Requested size: 76.82246pt x 60.17807pt.
 
-<figures/plot1_fallen-crop.pdf, id=945, 361.35pt x 283.0575pt>
+<figures/plot1_fallen-crop.pdf, id=963, 361.35pt x 283.0575pt>
 File: figures/plot1_fallen-crop.pdf Graphic file (type pdf)
 
 <use figures/plot1_fallen-crop.pdf>
-Package pdftex.def Info: figures/plot1_fallen-crop.pdf used on input line 288.
+Package pdftex.def Info: figures/plot1_fallen-crop.pdf used on input line 290.
 (pdftex.def)             Requested size: 76.82246pt x 60.17807pt.
 
-<figures/plot2_fallen-crop.pdf, id=946, 361.35pt x 283.0575pt>
+<figures/plot2_fallen-crop.pdf, id=964, 361.35pt x 283.0575pt>
 File: figures/plot2_fallen-crop.pdf Graphic file (type pdf)
 
 <use figures/plot2_fallen-crop.pdf>
-Package pdftex.def Info: figures/plot2_fallen-crop.pdf used on input line 288.
+Package pdftex.def Info: figures/plot2_fallen-crop.pdf used on input line 290.
 (pdftex.def)             Requested size: 76.82246pt x 60.17807pt.
 
 
@@ -1333,32 +1333,32 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.288 }
+l.290 }
        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-! LaTeX Error: \begin{minipage} on input line 288 ended by \end{figure*}.
+! LaTeX Error: \begin{minipage} on input line 290 ended by \end{figure*}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.288 }
+l.290 }
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (29.94449pt too wide) in paragraph at lines 288--288
+Overfull \hbox (29.94449pt too wide) in paragraph at lines 290--290
 [][][][][]\OT1/cmss/m/n/10 Figures 
  []
 
 
-Overfull \hbox (10.83195pt too wide) has occurred while \output is active
-  [] [] [][][] [][][][] [][] [][][][][][] [] []  
+Overfull \hbox (79.17482pt too wide) has occurred while \output is active
+  [] [] [][][] [][][][] [][] [][][][][][] [] [] []  
  []
 
 [12
@@ -1367,29 +1367,29 @@ Overfull \hbox (10.83195pt too wide) has occurred while \output is active
 opBox/Papers/motion/flair-28-presentation/figures/plot5-crop.pdf> <F:/DropBox/P
 apers/motion/flair-28-presentation/figures/plot1_fallen-crop.pdf> <F:/DropBox/P
 apers/motion/flair-28-presentation/figures/plot2_fallen-crop.pdf>]
-Overfull \hbox (10.83195pt too wide) has occurred while \output is active
-  [] [] [][][] [][][][] [][] [][][][][][] [] []  
+Overfull \hbox (79.17482pt too wide) has occurred while \output is active
+  [] [] [][][] [][][][] [][] [][][][][][] [] [] []  
  []
 
 [13
 
 ]
-Overfull \hbox (10.83195pt too wide) has occurred while \output is active
-  [] [] [][][] [][][][] [][] [][][][][][] [] []  
+Overfull \hbox (79.17482pt too wide) has occurred while \output is active
+  [] [] [][][] [][][][] [][] [][][][][][] [] [] []  
  []
 
 [14
 
 ]
-Overfull \hbox (10.83195pt too wide) has occurred while \output is active
-  [] [] [][][] [][][][] [][] [][][][][][] [] []  
+Overfull \hbox (79.17482pt too wide) has occurred while \output is active
+  [] [] [][][] [][][][] [][] [][][][][][] [] [] []  
  []
 
 [15
 
 ]
-Overfull \hbox (10.83195pt too wide) has occurred while \output is active
-  [] [] [][][] [][][][] [][] [][][][][][] [] []  
+Overfull \hbox (79.17482pt too wide) has occurred while \output is active
+  [] [] [][][] [][][][] [][] [][][][][][] [] [] []  
  []
 
 [16
@@ -1398,20 +1398,14 @@ Overfull \hbox (10.83195pt too wide) has occurred while \output is active
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 377.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 377.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 379.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 379.
  (F:\DropBox\Papers\motion\flair-28-presentation\Test-UM.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 377.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 377.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 379.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 379.
+Package rerunfilecheck Info: File `Test-UM.out' has not changed.
+(rerunfilecheck)             Checksum: F172E5B99481B271A8F3A1BE9C1D1CCD;2256.
 
-
-Package rerunfilecheck Warning: File `Test-UM.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Test-UM.out':
-(rerunfilecheck)             Before: 925CF1561BDC5ECDFD2048505B2E0055;2074
-(rerunfilecheck)             After:  F172E5B99481B271A8F3A1BE9C1D1CCD;2256.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -1419,13 +1413,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 377.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 379.
  ) 
 Here is how much of TeX's memory you used:
- 22488 strings out of 493921
- 409148 string characters out of 3144873
+ 22495 strings out of 493921
+ 409208 string characters out of 3144873
  471742 words of memory out of 3000000
- 25252 multiletter control sequences out of 15000+200000
+ 25259 multiletter control sequences out of 15000+200000
  13189 words of font info for 48 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,20n,58p,407b,903s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1440,9 +1437,9 @@ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Test-UM.pdf (16 pages, 11167815 bytes).
+Output written on Test-UM.pdf (16 pages, 11171831 bytes).
 PDF statistics:
- 1245 PDF objects out of 1440 (max. 8388607)
+ 1266 PDF objects out of 1440 (max. 8388607)
  68 named destinations out of 1000 (max. 500000)
- 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 285 words of extra memory for PDF output out of 10000 (max. 10000000)
 
