@@ -1,0 +1,16 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {2}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {2}{1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {2}{2}{Motivation}{3}{0}{1}
+\beamer@sectionintoc {3}{Our Approach and Contributions}{5}{0}{2}
+\beamer@subsectionintoc {3}{1}{Devices}{5}{0}{2}
+\beamer@subsectionintoc {3}{2}{Frameworks}{5}{0}{2}
+\beamer@sectionintoc {4}{Experimental Setup}{8}{0}{3}
+\beamer@subsectionintoc {4}{1}{Activity Annotation}{8}{0}{3}
+\beamer@sectionintoc {5}{Evaluation Results}{9}{0}{4}
+\beamer@subsectionintoc {5}{1}{Feature Extraction}{9}{0}{4}
+\beamer@subsectionintoc {5}{2}{Experiments with a Human}{9}{0}{4}
+\beamer@subsectionintoc {5}{3}{Experiments with a NAO Robot}{9}{0}{4}
+\beamer@sectionintoc {6}{Conclusion \& Future Work}{14}{0}{5}
+\beamer@sectionintoc {7}{*Conclusion \& Future Work}{15}{0}{6}
+\beamer@sectionintoc {8}{*Conclusion \& Future Work}{16}{0}{7}
