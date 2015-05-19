@@ -200,11 +200,11 @@
 	\end{figure}
 
 \begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black]
-\begin{itemize}
+{\small \begin{itemize}
 \item $\dot{x}, \dot{y}, \mbox{  and } \dot{z}$: accelerometer readings in $m/s^2$.
 \item $\dot{\theta_x}, \dot{\theta_y}, \mbox{  and } \dot{\theta_z}$: gyroscope readings in 
 $rad/s$.
-\end{itemize}	 
+\end{itemize}	} 
 	  \end{tcolorbox} 	
 
 }
@@ -311,19 +311,19 @@ Twelve motions:
 %							%\caption{5 Vs 5}\label{fig:timePlot}
 %						%\end{tcolorbox}
 %			\endminipage 
-			\minipage{0.3\textwidth}
+			\minipage{0.32\textwidth}
 			%\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
 				\centering \includegraphics[width=\linewidth]{figures/plot5-crop}
 				%\caption{7 Vs 7}\label{fig:timeIndiPlot}
 			%\end{tcolorbox}
 			\endminipage
-			\minipage{0.3\textwidth}\hfill
+			\minipage{0.32\textwidth}\hfill
 			%\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
 				\centering \includegraphics[width=\linewidth]{figures/plot1_fallen-crop}
 				%\caption{5 Vs 5}\label{fig:timePlot}
 			%\end{tcolorbox}
 			\endminipage 
-			\minipage{0.3\textwidth}
+			\minipage{0.32\textwidth}
 			%\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
 				\centering \includegraphics[width=\linewidth]{figures/plot2_fallen-crop}
 				%\caption{7 Vs 7}\label{fig:timeIndiPlot}
@@ -331,7 +331,7 @@ Twelve motions:
 			\endminipage
 		\end{figure}
 	
-	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Kalman Filtering]
+	{\tiny \begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Kalman Filtering]
 	\begin{itemize}
 				\item Threshold-based decision making.
 				\item Roll: $[90\pm15^{\circ}]$ \&\& Pitch: $[0\pm15]^{\circ}$ $\rightarrow$ normal state (100\%).
@@ -340,7 +340,7 @@ Twelve motions:
 				\item Pitch $< -50^{\circ}$ $\rightarrow$ falling left side.
 				\item Pitch $> 50^{\circ}$ $\rightarrow$ falling right side. 
 			\end{itemize}
-	\end{tcolorbox}
+	\end{tcolorbox}}
 	
 	
 }
@@ -465,14 +465,14 @@ Eleven motions:
 	\setbeamercovered{transparent} 
 	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Related Work]
 	\begin{itemize}
-			 \item	To detect fall incidences among the elderly people \cite{ojetola2011fall}.
-			 \item  To classify behaviors and postures \cite{baek2013real}.
-			 \item  To detect event that cause trauma and disabilities \cite{leone2013supervised}.
-			 \item  Activity detection systems: 
-			 \cite{Bao04activityrecognition,dumitrache2013fall,kumarwearable,krishnan2014activity,gao2014evaluation,alvarez2015evaluating}.
-			\item To detect fall and damage reduction mechanism for biped humanoid robots 
+			 \item	Detection of fall incidences among the elderly people \cite{ojetola2011fall}.
+			 \item  Classification of behaviors and postures \cite{baek2013real}.
+			 \item  Detection of events that cause trauma and disabilities \cite{leone2013supervised}.
+			 \item  Activity detection systems 
+			\cite{Bao04activityrecognition,dumitrache2013fall,kumarwearable,krishnan2014activity,gao2014evaluation,alvarez2015evaluating}.
+			\item Detection of fall and damage reduction mechanism for humanoid robots 
 			\cite{moya2014fall}.
-			\item Smart-phones to detect activities 
+			\item Activity detection with smart-phones
 			\cite{bai2013recognition,steidl2012fall,DernbachDKTC12,Shen2015390}.
 			\end{itemize}
 	\end{tcolorbox}	
