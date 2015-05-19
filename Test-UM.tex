@@ -54,41 +54,42 @@
   
   \begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Challenges]
   \begin{itemize}
-	\item Activities (jogging, running) may cause a fall.
+  	\item To distinguish between: 
+	  	\begin{itemize}
+	  		\item \textbf{Human}: daily activities and falls.
+	  		\item \textbf{Humanoid robots}: normal motions and falls.
+	  	\end{itemize}
 	
-	\item  Damage to the human body or to the structural components of the robot.
+	\item  To design and develop a unified platform for both. 
 	    		
-	\item Immediate identification.
-	
-	\item Inexpensive wearable sensors.
-  \end{itemize}
+	\end{itemize}
   \end{tcolorbox}  
   
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Motivation}
-\subsubsection*{Motivation}
-\frame{
-	\frametitle{Motivation}
-	\setbeamercovered{transparent}
-	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Motivation]
-	\begin{itemize}
-	\item Humans and biped humanoid robots have almost identical motions.
-	\item  Susceptible to 
-	similar accidents.
-	\item Same set of learning algorithms
-			 	are suitable for both groups.
- 	\item Off-the-shelf hardware components to develop our sensing tools.
- 	\item Generalized approach for learning and predicting
- 	activities of both groups.
- 	
- 	\item  Detection of falls for both humans and robots within a unified framework;
- 	
-	\end{itemize}
-	\end{tcolorbox}
-	
-}
+%\subsection{Motivation}
+%\subsubsection*{Motivation}
+%\frame{
+%	\frametitle{Motivation}
+%	\setbeamercovered{transparent}
+%	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Motivation]
+%	\begin{itemize}
+%	\item Humans and biped humanoid robots have almost identical motions.
+%	\item  Susceptible to 
+%	similar accidents.
+%	\item Same set of learning algorithms
+%			 	are suitable for both groups.
+% 	\item Off-the-shelf hardware components to develop our sensing tools.
+% 	\item Generalized approach for learning and predicting
+% 	activities of both groups.
+% 	
+% 	\item  Detection of falls for both humans and robots within a unified framework;
+% 	
+%	\end{itemize}
+%	\end{tcolorbox}
+%	
+%}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -100,25 +101,48 @@
 	\frametitle{Our Approach and Contributions}
 	\setbeamercovered{transparent}
 	
-	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Devices]
+	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Devices and Software Tools]
 	\begin{itemize}
-				\item Configuration: 
+				\item Off the shelf hardware: 
 				\begin{enumerate}
 				\item Tiva C Series TM4C123G microcontroller board.
 				\item Sensor Hub BoosterPack for sensing 9-axis motion.
 				\item CC2533 BoosterPack for wireless networking.
 				\end{enumerate}
-				\item Software tools:				
+				\item Software tools developed:				
 				\begin{enumerate}
-					 \item Setup the WSN, 
-					 \item Collect data using WSN network, 
-					 \item To learn from sample examples, and 
-					 \item To monitor and predict events. 
+					 \item Setup the wireless sensor network (WSN). 
+					 \item Collect data using WSN. 
+					 \item Learn to distinguish among events.
+					 \item Monitor and predict events. 
 				\end{enumerate} 
 			\end{itemize}
 	\end{tcolorbox}
 	 
 	
+}
+
+\frame{
+	\frametitle{Placement}
+	\setbeamercovered{transparent} 
+	\begin{figure}[!ht]
+		\centering
+		\minipage{0.48\textwidth}
+		\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
+			\centering \includegraphics[width=0.7\linewidth]{figures/human_figure}
+			%\caption{5 Vs 5}\label{fig:timePlot}
+		\end{tcolorbox}
+		\endminipage \hspace{2mm}
+		\minipage{0.48\textwidth}
+		\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
+			\centering \includegraphics[width=0.62\linewidth]{figures/robot_figure}
+			%\caption{7 Vs 7}\label{fig:timeIndiPlot}
+		\end{tcolorbox}
+		\endminipage
+	\end{figure}
+
+	
+
 }
 
 
@@ -128,12 +152,14 @@
 \frame{
 	\frametitle{Our Approach and Contributions}
 	\setbeamercovered{transparent} 
-	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Framework]
+	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Framework for Scheduling Processes]
 		\begin{itemize}
-				\item Generic functionalities to develop applications or 
-				rational agents on embedded devices.
-				\item Tools to develop modules and representations that execute on the 
-				 microcontrollers. 
+				\item Collect process dependence description.
+				\item Create directed acyclic graph. 
+				\item Create process execution schedule. 
+				\begin{itemize}
+					\item Topological sorting.
+				\end{itemize} 
 				\item ``$\mu$Energia'': \url{http://muenergia.saminda.org}
 			\end{itemize}
 	\end{tcolorbox}
@@ -142,31 +168,17 @@
 
 
 
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \frame{
-	\frametitle{Framework}
+	\frametitle{DAG}
 	\setbeamercovered{transparent} 
-\begin{figure}[!ht]
-\centering
-\minipage{0.48\textwidth}
-\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
-  \centering \includegraphics[width=0.5\linewidth]{figures/human_figure}
-  %\caption{5 Vs 5}\label{fig:timePlot}
-  \end{tcolorbox}
-\endminipage \hspace{2mm}
-\minipage{0.48\textwidth}
-\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
-  \centering \includegraphics[width=0.45\linewidth]{figures/robot_figure}
-  %\caption{7 Vs 7}\label{fig:timeIndiPlot}
-  \end{tcolorbox}
-\endminipage
-\end{figure}
-\vspace{-3mm}
 \begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\textwidth]{figures/graph_structure_def-crop3}
+    \includegraphics[width=\textwidth]{figures/graph_structure_def-crop3}
 \end{figure}
 \end{tcolorbox}
 
@@ -210,18 +222,6 @@
 	    \includegraphics[width=0.4\textwidth]{plots/robot_fallen_forward2-crop.pdf}
 	\end{figure}
 	\end{tcolorbox}
-%	 
-%	\begin{block}{Activity Annotation}
-%		\begin{figure*}
-%			\includegraphics[width=0.25\textwidth]{plots/human_walk2-crop.pdf}
-%			\includegraphics[width=0.25\textwidth]{plots/robot_fallen_forward2-crop.pdf}
-%			\caption{Figures (a) shows 3-axis accelerometer and 3-axis gyroscope graph for human 
-%motions walking forward Figures (b) shows 3-axis accelerometer and 3-axis gyroscope graph for 
-%robot's fallen forward and backward motions.}
-%			\label{fig:anotation-human-robot} 
-%		\end{figure*}
-%		
-%	\end{block}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -262,7 +262,7 @@
 	\frametitle{Evaluation Results}
 	\setbeamercovered{transparent}
 	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Experiments with a Human]
-	We have conducted twelve motions in total on the human subject. 
+Twelve motions: 
 			
 			\begin{table}[!ht]
 				
@@ -303,7 +303,7 @@
 						4\%	 \\ \hline
 					\end{tabular}
 				}
-				\caption{Logistic regression and SVM classification for human activities.}
+				%\caption{Logistic regression and SVM classifications.}
 			\end{table}
 	
 	\end{tcolorbox} 
@@ -318,21 +318,12 @@
 	\setbeamercovered{transparent} 
 	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Kalman Filtering]
 	\begin{itemize}
-				\item Threshold-based decision making; filtered the roll, pitch, and
-				yaw values using a Kalman filter.
-				\item If filtered roll values are within $[90\pm15^{\circ}]$ and the filtered pitch 
-				values are within  $[0\pm15]^{\circ}$, then with 100\% 
-				accuracy, the NAO  robot will be in a normal state. Otherwise the robot 
-				is in a fallen state.
-				\item If the filtered roll value is less that $60^{\circ}$ 
-				, the robot is falling forward. If the filtered roll values is 
-				more than 100$^{\circ}$, then it is falling backward.
-				\item If the filtered pitch value is less than -50$^{\circ}$, the robot is falling 
-				to the left side, while if the 
-				filtered pitch values is more than 50$^{\circ}$,then it is falling to the right 
-				side.
-				\item  With these thresholds for a separate test cases, the thresholding method has 
-				detected fallen 				state with 100\% accuracy. 
+				\item Threshold-based decision making.
+				\item Roll: $[90\pm15^{\circ}]$ \&\& Pitch: $[0\pm15]^{\circ}$ $\rightarrow$ normal state (100\%).
+				\item Roll $< 60^{\circ}$ $\rightarrow$ falling forward. 
+				\item Roll $< 100^{\circ}$ $\rightarrow$ falling backward.
+				\item Pitch $< -50^{\circ}$ $\rightarrow$ falling left side.
+				\item Pitch $> 50^{\circ}$ $\rightarrow$ falling right side. 
 			\end{itemize}
 	\end{tcolorbox}
 	
@@ -370,7 +361,7 @@
 	
 	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Experiments with a NAO 
 	Robot]
-	We have conducted eleven motions in total on the robot subject. 
+Eleven motions: 
 			\begin{table}[!ht]
 				
 				\label{tab:robot-logistic-class}
@@ -408,7 +399,7 @@
 						& 4\%	 \\ \hline
 					\end{tabular}
 				}
-				\caption{Logistic regression  and SVM classification for robot activities.}
+				%\caption{Logistic regression  and SVM classifications.}
 			\end{table}
 	\end{tcolorbox}
 	
@@ -423,11 +414,11 @@
 	\setbeamercovered{transparent} 
 	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Conclusion \& Future Work]
 	\begin{itemize}
-			 \item	Learn and predict different activities for humans and robots
-			\item  A generic framework software tools for	embedded devices.
-			\item We were able to detect of falls and other activities with high accuracy.
-			\item Our future work will be to use multiple sensing devices to create a sensor network.
-			\item Detect complex activities with higher sampling rates.
+			 \item	Learn and predict different activities for humans and robots.
+			\item Framework  for	embedded devices.
+			\item Detect normal activities and fall events with high accuracy.
+			\item Sensor network.
+			\item To use the devices in other domains. 
 			\end{itemize}
 	\end{tcolorbox}
 	
@@ -452,13 +443,12 @@
 %\section{*Conclusion \& Future Work}
 %\subsubsection*{*Conclusion \& Future Work}
 
-%\frame{
-%	\frametitle{}
-%	\setbeamercovered{transparent} 
-%	\begin{block}{}
-%		\centering
-%		\huge Questions ?
-%	\end{block}
-%}
+\begin{frame}[allowframebreaks]
+	\tiny
+	\bibliography{references}
+	\bibliographystyle{alpha}
+	\normalsize
+\end{frame}
+
 
 \end{document}
