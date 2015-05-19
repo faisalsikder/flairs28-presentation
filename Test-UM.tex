@@ -107,7 +107,7 @@
 				\begin{enumerate}
 				\item Tiva C Series TM4C123G microcontroller board.
 				\item Sensor Hub BoosterPack for sensing 9-axis motion.
-				\item CC2533 BoosterPack for wireless networking.
+				\item CC2533 BoosterPack for wireless networking.\\[2ex]
 				\end{enumerate}
 				\item Software tools developed:				
 				\begin{enumerate}
@@ -154,12 +154,9 @@
 	\setbeamercovered{transparent} 
 	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Framework for Scheduling Processes]
 		\begin{itemize}
-				\item Collect process dependence description.
+				\item Collect process dependence descriptions.
 				\item Create directed acyclic graph. 
-				\item Create process execution schedule. 
-				\begin{itemize}
-					\item Topological sorting.
-				\end{itemize} 
+				\item Create process execution schedule using topological sorting.
 				\item ``$\mu$Energia'': \url{http://muenergia.saminda.org}
 			\end{itemize}
 	\end{tcolorbox}
@@ -228,25 +225,25 @@
 
 
 
-\section{Evaluation Results}
+\section{Evaluation \& Results}
 \subsection{Feature Extraction}
 \subsection{Experiments with a Human}
 \subsection{Experiments with a NAO Robot}
 
 \frame{
-	\frametitle{Evaluation Results}
+	\frametitle{Evaluation \& Results}
 	\setbeamercovered{transparent} 
 	
 	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Feature Extraction]
 	\begin{itemize}
 			\item 50$Hz$ sampling rate. 
-			\item In order to identify activities: 
+			\item For activity identification: 
 			\begin{enumerate} 
 			\item Window size of $400ms$ (20 	samples); and 
 			\item Allowed 10 samples ($200ms$) to overlap between 
 					windows. 
 				\end{enumerate} 
-				\item The selection of the window size is based on the observation that transition 
+				\item The selection of the window size is based on the observation that a transition 
 				from routine  activities to a fall event 
 				takes between $180-250ms$. 
 				\item Thus, a window size of $400ms$ will include both fall event and 
@@ -259,7 +256,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \frame{
-	\frametitle{Evaluation Results}
+	\frametitle{Evaluation \& Results}
 	\setbeamercovered{transparent}
 	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Experiments with a Human]
 Twelve motions: 
@@ -314,7 +311,7 @@ Twelve motions:
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \frame{
-	\frametitle{Evaluation Results}
+	\frametitle{Evaluation \& Results}
 	\setbeamercovered{transparent} 
 	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Kalman Filtering]
 	\begin{itemize}
@@ -356,7 +353,7 @@ Twelve motions:
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \frame{
-	\frametitle{Evaluation Results}
+	\frametitle{Evaluation \& Results}
 	\setbeamercovered{transparent}
 	
 	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Experiments with a NAO 
