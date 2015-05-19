@@ -1,6 +1,6 @@
 \documentclass[ucs,10pt]{beamer}
 \mode<presentation>
-\hypersetup{pdfpagemode=FullScreen}
+%\hypersetup{pdfpagemode=FullScreen}
 
 \usepackage{beamerthemesplit}
 \usepackage{beamer_visser_um}
@@ -123,7 +123,7 @@
 }
 
 \frame{
-	\frametitle{Sensor placement}
+	\frametitle{Sensor Placement}
 	\setbeamercovered{transparent} 
 	\begin{figure}[!ht]
 		\centering
@@ -201,25 +201,31 @@
 \section{Experimental Setup}
 \subsection{Activity Annotation}
 
+
 \frame{
-	\frametitle{Activity Annotation}
-	\setbeamercovered{transparent}
-	
-	\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
-		\begin{figure}
-		    \centering
-		    \includegraphics[width=0.4\textwidth]{plots/human_walk2-crop.pdf}
-		\end{figure}
+	\frametitle{Example Traces}
+	\framesubtitle{Human (Left) and Robot (Right) Falling Forward}
+	\setbeamercovered{transparent} 
+	\begin{figure}[!ht]
+		\centering
+		\minipage{0.48\textwidth}
+		\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
+			\centering \includegraphics[width=\linewidth]{plots/human_falling-crop.pdf}
+			%\caption{5 Vs 5}\label{fig:timePlot}
 		\end{tcolorbox}
-	
-	
-	\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
-	\begin{figure}
-	    \centering
-	    \includegraphics[width=0.4\textwidth]{plots/robot_fallen_forward2-crop.pdf}
+		\endminipage \hspace{2mm}
+		\minipage{0.48\textwidth}
+		\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
+			\centering \includegraphics[width=\linewidth]{plots/robot_fallen_forward2-crop.pdf}
+			%\caption{7 Vs 7}\label{fig:timeIndiPlot}
+		\end{tcolorbox}
+		\endminipage
 	\end{figure}
-	\end{tcolorbox}
+
+	
+
 }
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
