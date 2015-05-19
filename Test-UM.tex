@@ -105,6 +105,7 @@
 	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Devices and Software Tools]
 	\begin{itemize}
 				\item Off the shelf hardware: 
+				% one of the best availale with affordable price, with lot of features in it
 				\begin{enumerate}
 				\item Tiva C Series TM4C123G microcontroller board.
 				\item Sensor Hub BoosterPack for sensing 9-axis motion.
@@ -114,7 +115,7 @@
 				\begin{enumerate}
 					 \item Setup the wireless sensor network (WSN). 
 					 \item Collect data using WSN. 
-					 \item Learn to distinguish among events.
+					 \item Learn to distinguish among events (such as walking forward, turn clockwise etc.).
 					 \item Monitor and predict events. 
 				\end{enumerate} 
 			\end{itemize}
@@ -192,6 +193,7 @@
 	\begin{figure}[!ht]
 		\minipage{0.48\textwidth}
 		\includegraphics[width=\linewidth]{plots/human_falling-crop.pdf}
+			% why 6 axis not 9 axis
 			%\caption{5 Vs 5}\label{fig:timePlot}
 		\endminipage \hfill
 		\minipage{0.48\textwidth}
@@ -330,7 +332,7 @@ Twelve motions:
 			%\end{tcolorbox}
 			\endminipage
 		\end{figure}
-	
+			%kalman filter for euler angles.
 	{\tiny \begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Kalman Filtering]
 	\begin{itemize}
 				\item Threshold-based decision making.
