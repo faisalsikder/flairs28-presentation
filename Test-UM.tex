@@ -128,16 +128,16 @@
 	\begin{figure}[!ht]
 		\centering
 		\minipage{0.48\textwidth}
-		\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
+		%\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
 			\centering \includegraphics[width=0.7\linewidth]{figures/human_figure}
 			%\caption{5 Vs 5}\label{fig:timePlot}
-		\end{tcolorbox}
+		%\end{tcolorbox}
 		\endminipage \hspace{2mm}
 		\minipage{0.48\textwidth}
-		\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
+		%\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
 			\centering \includegraphics[width=0.62\linewidth]{figures/robot_figure}
 			%\caption{7 Vs 7}\label{fig:timeIndiPlot}
-		\end{tcolorbox}
+		%\end{tcolorbox}
 		\endminipage
 	\end{figure}
 
@@ -172,27 +172,14 @@
 \frame{
 	\frametitle{Software overview}
 	\setbeamercovered{transparent} 
-\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
+%\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
 \begin{figure}
     \centering
     \includegraphics[width=\textwidth]{figures/graph_structure_def-crop3}
 \end{figure}
-\end{tcolorbox}
+%\end{tcolorbox}
 
-%	\begin{block}{Frameworks}
-%		\begin{figure*}
-%			\centering
-%			\includegraphics[width=0.6\textwidth]{figures/graph_structure_def-crop3}
-%			\includegraphics[width=0.21\textwidth]{figures/human_figure}
-%			\includegraphics[width=0.185\textwidth]{figures/robot_figure}
-%			\label{fig:framework}
-%			\caption{(a) Currently available software modules in our framework and a 	
-%directed-graph representation of their functional
-%				relationship; (b) a wireless sensor device attached to the back of a human subject 
-%(c) the same device configuration was used on the back of a NAO
-%				humanoid robot.}
-%		\end{figure*}
-%	\end{block}
+
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -319,6 +306,35 @@ Twelve motions:
 \frame{
 	\frametitle{Evaluation \& Results}
 	\setbeamercovered{transparent} 
+	
+	\begin{figure}[!ht]
+			\centering
+%			\minipage{0.3\textwidth}
+%						%\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
+%							\centering \includegraphics[width=\linewidth]{figures/plot1-crop}
+%							%\caption{5 Vs 5}\label{fig:timePlot}
+%						%\end{tcolorbox}
+%			\endminipage 
+			\minipage{0.3\textwidth}
+			%\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
+				\centering \includegraphics[width=\linewidth]{figures/plot5-crop}
+				%\caption{7 Vs 7}\label{fig:timeIndiPlot}
+			%\end{tcolorbox}
+			\endminipage
+			\minipage{0.3\textwidth}\hfill
+			%\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
+				\centering \includegraphics[width=\linewidth]{figures/plot1_fallen-crop}
+				%\caption{5 Vs 5}\label{fig:timePlot}
+			%\end{tcolorbox}
+			\endminipage 
+			\minipage{0.3\textwidth}
+			%\begin{tcolorbox}[colback=white!5,colframe=darkgreen!90!black]
+				\centering \includegraphics[width=\linewidth]{figures/plot2_fallen-crop}
+				%\caption{7 Vs 7}\label{fig:timeIndiPlot}
+			%\end{tcolorbox}
+			\endminipage
+		\end{figure}
+	
 	\begin{tcolorbox}[colback=green!5,colframe=darkgreen!90!black,title=Kalman Filtering]
 	\begin{itemize}
 				\item Threshold-based decision making.
